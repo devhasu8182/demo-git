@@ -1,7 +1,7 @@
 <template>
-    <dvi>
-        <h1>clade</h1>
-    </dvi>
+    <div>
+        <router-view></router-view>
+    </div>
 </template>
 
 <script>
