@@ -12,6 +12,11 @@ import { routes } from './routes';
 Vue.use(VueRouter);
 Vue.use(VueAxios, axios);
 
+import Buefy from 'buefy'
+import 'buefy/dist/buefy.css'
+
+Vue.use(Buefy)
+
 const router = new VueRouter({
     mode: 'history',
     routes: routes
