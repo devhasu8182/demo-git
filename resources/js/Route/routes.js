@@ -1,6 +1,6 @@
 import Vue from "vue";
 import Router from "vue-router";
-
+import Layout from '../Componetns/Layout/Layout';
 Vue.use(Router);
 
 const router = new Router({
@@ -23,6 +23,19 @@ const router = new Router({
                 },
             ]
         },
+        {
+            name: 'layout',
+            path: '/dashboard',
+            redirect:'/dashboard',
+            component: Layout,
+            children:[
+                {
+                    name: 'dashboard',
+                    path: '/dashboard',
+                    component: () => import('../Componetns/Dashboard/Dashboard'),
+                }
+            ]
+        }
     ]
 })
 export default router;

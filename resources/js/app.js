@@ -10,7 +10,13 @@ import axios from 'axios';
 Vue.use(VueRouter);
 Vue.use(VueAxios, axios);
 
+
 import router from "./Route/routes";
+
+import Buefy from 'buefy'
+import 'buefy/dist/buefy.css'
+
+Vue.use(Buefy)
 
 new Vue({
     router,
