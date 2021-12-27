@@ -25,6 +25,8 @@
         "vue-loader": "^15.9.8"
     },
     "dependencies": {
+        "buefy": "^0.9.13",
+        "bulma": "^0.9.3",
         "vue-axios": "^3.4.0",
         "vue-router": "^3.5.3"
     }
