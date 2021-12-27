@@ -3,12 +3,27 @@
         <form class="form-signin">
             <div class="text-center mb-4">
                 <img class="mb-4" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
-                <h1 class="h3 mb-3 font-weight-normal">Login</h1>
+                <h1 class="h3 mb-3 font-weight-normal">Register</h1>
                 Build form controls with floating labels via the <code>:placeholder-shown</code>
             </div>
 
             <div class="form-label-group">
                 <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+                <label for="inputEmail">Email address</label>
+            </div>
+
+            <div class="form-label-group">
+                <input type="email" id="dfsf" class="form-control" placeholder="Email address" required autofocus>
+                <label for="inputEmail">Email address</label>
+            </div>
+
+            <div class="form-label-group">
+                <input type="email" id="dfs" class="form-control" placeholder="Email address" required autofocus>
+                <label for="inputEmail">Email address</label>
+            </div>
+
+            <div class="form-label-group">
+                <input type="email" id="df" class="form-control" placeholder="Email address" required autofocus>
                 <label for="inputEmail">Email address</label>
             </div>
 
@@ -30,7 +45,7 @@
 
 <script>
 export default {
-    name: "Login"
+    name: "Register"
 }
 </script>
 

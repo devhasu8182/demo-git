@@ -15,7 +15,12 @@ const router = new Router({
                     name: 'Login',
                     path: '/login',
                     component: ()=> import('../components/Auth/Login')
-                }
+                },
+                {
+                    name: 'Login',
+                    path: '/register',
+                    component: ()=> import('../components/Auth/Register')
+                },
             ]
         },
     ]
